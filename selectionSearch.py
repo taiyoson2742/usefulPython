@@ -1,4 +1,4 @@
-
+#written 10.26.26
 #this one is easy af
 def selectionSearch(list,word):
     index = -1
@@ -8,6 +8,6 @@ def selectionSearch(list,word):
             break
     return index
 
-touhous = ["Reimu","Marisa","Cirno","Sakuya","Meiling","Patchouli","Remillia"]
+touhous = ["Reimu","Marisa","Cirno","Sakuya","Meiling","Patchouli","Remilia"]
 name = "Sakuya"
 print(selectionSearch(touhous,name))
